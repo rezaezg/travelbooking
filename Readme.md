@@ -1,3 +1,5 @@
+#Conf
+before running you should define your sql config in yml file 
 # Files Structure
 
 travelbooking/ \
