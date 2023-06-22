@@ -1,23 +1,23 @@
 # Files Structure
 
-travelbooking/
-├── data/ # Data directory of booking, users and company
-│   ├── booking.csv/
-│   ├── company.csv/
-│   ├── users.csv/
-├── scripts/ # ETL scripts
-│   ├── processing/
-│   │   │   ├── analysing.py
-│   │   │   ├── cleaning.py
-│   │   │   └── transformation.py
-│   ├── loading/
-│   │   │   ├── dim_date.py
-│   │   │   └── Load_to_db.py
-│   ├── test/
-│   │   │   ├── test_ingestion.py
-│   ├── init.py
-├── main.py # main 
-├── docker-compose.yml #docker compose file
+travelbooking/ \
+├── data/ # Data directory of booking, users and company \
+│   ├── booking.csv/ \
+│   ├── company.csv/ \
+│   ├── users.csv/ \
+├── scripts/ # ETL scripts \ 
+│   ├── processing/ \
+│   │   │   ├── analysing.py \
+│   │   │   ├── cleaning.py \
+│   │   │   └── transformation.py \
+│   ├── loading/ \
+│   │   │   ├── dim_date.py \
+│   │   │   └── Load_to_db.py \
+│   ├── test/ \
+│   │   │   ├── test_ingestion.py \
+│   ├── init.py \
+├── main.py # main  \
+├── docker-compose.yml #docker compose file \
 └── Dockerfile #Dockerfile 
 
 
