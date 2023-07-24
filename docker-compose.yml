@@ -31,4 +31,4 @@ services:
 
 networks:
   my_network:
-    name: diskbird_network
+    name: travelbooking_network
